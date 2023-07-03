@@ -117,8 +117,6 @@ const citiesControllers = {
             success: error.length > 0 ? (cities.length > 0 ? "warning" : false) : true,
             error: error
         })
-
-
     },
 
     removeCity: async (req, res) => {
